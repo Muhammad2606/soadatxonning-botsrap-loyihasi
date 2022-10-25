@@ -25,3 +25,19 @@
 #header .fixed img{
     width: 33%;
 }
+
+@media screen and (max-width:768px) {
+    #header .fixed{
+        position: relative;
+        left: 0;
+        top: 0;
+        background-image: url(/img/bgi4.jpg);
+        background-size: 100% 100%;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
