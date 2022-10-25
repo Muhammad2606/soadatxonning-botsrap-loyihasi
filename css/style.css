@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.roboto{
+    font-family: Cambria;
+}
+.lato{
+  font-family: serif;
+}
+#header .fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url(/img/bgi4.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#header .fixed img{
+    width: 33%;
+}
